@@ -1,0 +1,113 @@
+/* text styles */
+.subhead {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+  margin-top: 30px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.head {
+  font-size: 80px;
+  text-align: center;
+  margin: 20px;
+  color: purple;
+  font-family: "Road Rage", cursive;
+}
+
+.info {
+  text-align: center;
+  margin: 15px;
+  font-size: 20px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+/* container styles */
+.container_head {
+  margin: 40px;
+  margin-top: 40px;
+  font-size: 50px;
+  font-family: "Road Rage", cursive;
+}
+
+.container_info {
+  margin-left: 40px;
+  font-size: 20px;
+  width: 350px;
+  line-height: 30px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+/* block grid poistioning */
+.container {
+  height: 90vh;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.block2 {
+  border-top: solid red 8px;
+  grid-area: 1 / 2 / 3 / 3;
+  background-color: #ececec;
+}
+
+.block4 {
+  border-top: solid aquamarine 8px;
+  grid-area: 2 / 1 / 4 / 2;
+  background-color: #ececec;
+}
+
+.block6 {
+  border-top: solid blue 8px;
+  grid-area: 2 / 3 / 4 / 4;
+  background-color: #ececec;
+}
+
+.block8 {
+  border-top: solid yellow 8px;
+  grid-area: 3 / 2 / 5 / 3;
+  background-color: #ececec;
+}
+
+/* icon position */
+.icon {
+  /* border: solid red 2px; */
+  height: 100px;
+  font-size: 80px;
+  justify-items: end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+
+/* icon styles */
+.fa-house-user {
+  color: red;
+}
+
+.fa-search-plus {
+  color: aquamarine;
+}
+
+.fa-laptop {
+  color: blue;
+}
+
+.fa-lightbulb {
+  color: yellow;
+}
+
+/* footer styles + position */
+.footer {
+  font-size: 11px;
+  text-align: right;
+  color: hsl(217, 19%, 35%);
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
