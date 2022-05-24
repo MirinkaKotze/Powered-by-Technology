@@ -1,6 +1,8 @@
 # Powered-by-Technology
 Frontend Mentor Challenge - Grid Blocks
 
+Live Page URL: https://mirinkakotze.github.io/Powered-by-Technology/
+
 Your challenge is to build out this feature section and get it looking as close to the design as possible.
 
 Create the design by using grid CSS for the placing of the main cards
